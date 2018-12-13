@@ -1,0 +1,1 @@
+{"version":3,"sources":["accordeon_bok_pan.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA","file":"all.css","sourcesContent":["body{margin-top:50px;}\n.glyphicon { margin-right:10px; }\n.panel-body { padding:0px; }\n.panel-body table tr td { padding-left: 15px }\n.panel-body .table {margin-bottom: 0px; }"]}

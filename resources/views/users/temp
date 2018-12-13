@@ -1,0 +1,46 @@
+{{link_to_route('user.edit', 'Edit', array($user->id)) }}
+
+
+                {{ Form::open() }}
+
+                <div class="control-group">
+                    <label class="control-label" for="Username">Р›РѕРіРёРЅ :</label>
+                    <div class="controls">
+                        <input type="text" name="username" id="usernsme" value="{{ $user->username }}" placeholder="">
+                    </div>
+
+                    <div class="control-group">
+                        <label class="control-label" for="first_name">First Name :</label>
+                        <div class="controls">
+                            <input type="text" name="first_name" id="first_name" value="{{ $user->first_name }}" placeholder="">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="last_name">Last Name :</label>
+                        <div class="controls">
+                            <input type="text" name="last_name" id="last_name" value="{{ $user->last_name }}" placeholder="">
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label" for="rto">Email :</label>
+                        <div class="controls">
+                            <input type="text" name="email" id="email" value="{{ $user['email'] }}" placeholder="">
+                        </div>
+                    </div>
+
+                    <div class="form-actions">
+                        <!--   <button type="submit" class="btn btn-primary">РР·РјРµРЅРёС‚СЊ РґР°РЅРЅС‹Рµ</button>-->
+                    </div>
+                    <br>
+                    <br>
+
+                    {{Form::close() }}
+                </div>
+                <!-- My account tab close -->
+
+
+
+
+
+
+
