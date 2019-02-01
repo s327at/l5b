@@ -56,7 +56,7 @@ Route::get('/', function () {
 });
 
 
-//Route::get('auth/login', 'Auth\LoginController@showLoginForm');
+
 Route::get('auth/login', [
     'uses' => 'Auth\LoginController@showLoginForm',
     'as' => 'auth/login'
